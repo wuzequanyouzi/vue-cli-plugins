@@ -1,0 +1,21 @@
+{
+  "name": "@xiaoe/markdown-loader",
+  "version": "0.0.2",
+  "description": "处理MD文件的loader",
+  "dependencies": {
+    "highlight.js": "11.6.0",
+    "loader-utils": "^2.0.0",
+    "markdown-it": "12.3.2",
+    "markdown-it-anchor": "8.6.5",
+    "markdown-it-container": "3.0.0",
+    "markdown-it-toc-done-right": "4.2.0",
+    "schema-utils": "^4.0.0"
+  },
+  "author": {
+    "name": "zequanwu",
+    "email": "zequanwu@xiaoe-tech.com"
+  },
+  "repository": {
+    "url": "https://talkcheap.xiaoeknow.com/ecommercefe/cli-plugins/-/tree/feature/md-loader/src/markdown-loader"
+  }
+}

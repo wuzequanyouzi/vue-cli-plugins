@@ -1,0 +1,19 @@
+{
+  "name": "@xiaoe/vue-cli-plugin-module-select",
+  "version": "0.0.2",
+  "description": "该插件用于选择调试模块",
+  "dependencies": {
+    "ejs": "3.1.8",
+    "fs-extra": "10.1.0",
+    "globby": "11.0.4",
+    "prompts": "2.4.2",
+    "kolorist": "1.6.0"
+  },
+  "author": {
+    "name": "ackerlyzeng",
+    "email": "ackerlyzeng@xiaoe-tech.com"
+  },
+  "repository": {
+    "url": "https://talkcheap.xiaoeknow.com/ecommercefe/cli-plugins/-/tree/master/src/module-select"
+  }
+}

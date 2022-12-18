@@ -1,0 +1,32 @@
+{
+  "name": "vue-cli-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "dev": "npm install --save-dev ./src/add-component && vue-cli-service add",
+    "add": "vue-cli-service add",
+    "docs": "vue-cli-service docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "vuePlugins": {
+    "service": [
+      "./src/docs/index.js"
+    ]
+  },
+  "main": "index.js",
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "vue": "2.6.8"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~4.5.9",
+    "@xiaoe/vue-cli-plugin-add-component": "file:src/add-component",
+    "@xiaoe/vue-cli-plugin-module-select": "file:src/module-select",
+    "vue-cli-plugin-add-component": "file:src/add-component",
+    "@xiaoe/vue-cli-plugin-docs": "file:src/docs",
+    "vue-template-compiler": "2.6.8"
+  },
+  "keywords": [],
+  "license": "ISC"
+}

@@ -1,0 +1,76 @@
+stages:
+  - publish
+
+publishAddComponent:
+  stage: publish
+  only:
+    - master
+    - /feature\/.+/
+  when: manual
+  tags:
+    - Xiaoe_FE_tech_16
+  script:
+    - cd src/add-component
+    - cnpm publish
+
+publishModuleSelect:
+  stage: publish
+  only:
+    - master
+    - /feature\/.+/
+  when: manual
+  tags:
+    - Xiaoe_FE_tech_16
+  script:
+    - cd src/module-select
+    - cnpm publish
+
+publishDeployDocs:
+  stage: publish
+  only:
+    - master
+    - /feature\/.+/
+  when: manual
+  tags:
+    - Xiaoe_FE_tech_16
+  script:
+    - cd src/deploy-docs
+    - cnpm publish
+
+publishPerviewDocs:
+  stage: publish
+  only:
+    - master
+    - /feature\/.+/
+    - /bug-fix\/.+/
+  when: manual
+  tags:
+    - Xiaoe_FE_tech_16
+  script:
+    - cd src/docs
+    - cnpm publish
+
+publishStandardVersion:
+  stage: publish
+  only:
+    - master
+    - /feature\/.+/
+  when: manual
+  tags:
+    - Xiaoe_FE_tech_16
+  script:
+    - cd src/standard-version
+    - cnpm publish
+
+publishMdLoader:
+  stage: publish
+  only:
+    - master
+    - /feature\/.+/
+    - /bug-fix\/.+/
+  when: manual
+  tags:
+    - Xiaoe_FE_tech_16
+  script:
+    - cd src/markdown-loader
+    - cnpm publish

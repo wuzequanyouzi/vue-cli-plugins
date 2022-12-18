@@ -1,0 +1,23 @@
+{
+  "name": "@xiaoe/vue-cli-plugin-docs",
+  "version": "0.0.6", 
+  "description": "该插件用于预览和打包Vue组件文档",
+  "dependencies": {
+    "@xiaoe/markdown-loader": "0.0.2",
+    "kolorist": "1.6.0",
+    "prompts": "2.4.2"
+  },
+  "peerDependencies": {
+    "vue": ">=2.6.8",
+    "@vue/cli-service": ">=4.5.15",
+    "@vue/compiler-sfc": ">=3.2.39",
+    "vue-loader": ">=14.0.0"
+  },
+  "author": {
+    "name": "zequanwu",
+    "email": "zequanwu@xiaoe-tech.com"
+  },
+  "repository": {
+    "url": "https://talkcheap.xiaoeknow.com/ecommercefe/cli-plugins/-/tree/feature/add-component/src/docs_preview_and_build"
+  }
+}

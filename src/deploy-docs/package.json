@@ -1,0 +1,12 @@
+{
+  "name": "@xiaoe/deploy-docs",
+  "version": "0.0.1-alpha.4",
+  "description": "部署纯markdown文档",
+  "author": {
+    "name": "ackerlyzeng",
+    "email": "ackerlyzeng@xiaoe-tech.com"
+  },
+  "repository": {
+    "url": "https://talkcheap.xiaoeknow.com/ecommercefe/cli-plugins/-/tree/master/src/deploy-docs"
+  }
+}
